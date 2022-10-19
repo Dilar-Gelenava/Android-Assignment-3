@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="numBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">20</item>
+        <item name="android:backgroundTint">#e28743</item>
+        <item name="android:text">4</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+    </style>
+
+    <style name="opBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">20</item>
+        <item name="android:backgroundTint">#873e23</item>
+        <item name="android:text">+</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+    </style>
+
+    <style name="numBtnCol">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">33</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#e28743</item>
+    </style>
+
+    <style name="opBtnCol">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="screenLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:background">#eab676</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="screenText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+</resources>
